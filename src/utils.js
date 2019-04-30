@@ -1,5 +1,6 @@
 const moment = require("moment");
 const { EOL } = require("os");
+const forge = require("node-forge");
 
 /**
  * Parses the PEM-formatted passed text (certificates)
